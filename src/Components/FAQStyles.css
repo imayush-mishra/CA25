@@ -1,0 +1,65 @@
+
+body{
+   background: #f6f6f6;
+}
+
+.box{
+   width: 800px;
+   margin: 100px auto;
+   background: #fff;
+   border-radius: 7px;
+   box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+}
+.faqs .text-here{
+    margin-top: 5px;
+    color: black;
+    font-size: 1.1rem;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.box .heading{
+   background: #67e57d;
+   border-radius: 7px 7px 0px 0px;
+   padding: 10px;
+   color: #fff;
+   text-align: center;
+   font-size: 2.2rem;
+}
+.faqs .sub-heading{
+    color: black;
+    font-size: 1.5rem;
+}
+.faqs{
+   padding: 0px 20px 20px;
+}
+.box-faq{
+    background-color:rgb(247, 203, 179) ;
+    margin-left: 23px;
+    text-align: left;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 3px;
+}
+::-webkit-details-marker{
+   float: right;
+   margin-top: 3px;
+}
+
+details{
+   background: #f6f6f6;
+   padding: 10px 20px;
+   border-radius: 7px;
+   margin-top: 20px;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+
+details summary{
+   outline: none;
+}
+@media (max-width:1140px){
+    .box{
+        width: 500px;
+    }
+}

@@ -1,0 +1,134 @@
+.main-i{
+    background-color:  #67e57d;
+    height: 70vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main-i h1{
+    color: black;
+    padding: 17px;
+    margin-bottom: 10px;
+}
+.card1{
+    background-image: url("../assests/codeclause.png");
+    background-size: cover;
+    background-position: center;
+}
+.card2{
+    background-image: url("../assests/unstop.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.card3{
+    background-image: url("../assests/IMS.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.card4{
+    background-image: url("../assests/cracker.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.gallery{
+    display: flex;
+    margin-top: 80px;
+    background-color: var(--background);
+    scale: 1.6;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    left: 0px;
+    width: 140px;
+    height: 160px;
+    background-color: var(--background);
+    border-radius: 8px;
+    transition: 1000ms all;
+    transform-origin: center left;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.5);
+    outline: 1px solid var(--background);
+    overflow: hidden;
+}
+figcaption{
+    display: none;
+    text-align: center;
+}
+
+.card img{
+    height: 90px;
+    object-fit: cover;
+    border-radius: cover;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    transform-origin: center;
+}
+
+.card:hover figcaption{
+    font-size: 0.6rem;
+    position: absolute;
+    height: 80px;
+    width: 160px;
+    display: flex;
+    align-items: end;
+    text-align: center;
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.9) 0%,
+        rgba(0,0,0,0) 100%
+    );
+    color: white;
+    left: 0px;
+    bottom: 0px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+.card:hover ~ .card {
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+.i-h2{
+    margin-top: 7px;
+}
+.main-card{
+    position: relative;
+    left: 0px;
+    width: 170px;
+    height: 220px;
+    background-color: white;
+    border-radius: 8px;
+    transition: 1000ms all;
+    transform-origin: center left;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.5);
+    outline: 1px solid var(--background);
+    overflow: hidden;
+    align-items: center;
+
+    padding: 15px;
+    text-align: center;
+}
+.i-h22{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+@media (max-width: 1140px){
+    .main-div{
+        flex: 0 0 100%;
+    }
+    .gallery{
+        flex-direction: column;
+        margin-top: 280px;
+        align-items: center;
+    }
+    .main-i{
+        height: 230vh;
+    }
+
+}

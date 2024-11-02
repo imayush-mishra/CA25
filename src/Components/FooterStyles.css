@@ -1,0 +1,44 @@
+.footer{
+    width: 100%;
+    padding: 6rem 0;
+    background-color: black;
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+}
+.social-flex{
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+.location p{
+    line-height: 30px;
+}
+.line{
+    height: 5px;
+    background-color: #67e57d;
+    border-color: #67e57d;
+    margin: 20px 0;
+}
+.social{
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+
+}
+.contact{
+    color: white;
+    font-size: 1.2rem;
+}
+h4{
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
